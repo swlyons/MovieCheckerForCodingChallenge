@@ -31,9 +31,11 @@ Anyways, I'm just going to have it load the properties file upon request.
 I tried the code example in https://developer.themoviedb.org/reference/intro/getting-started but it was saying I wasn't authorized.
 My token got approved, and the example they provided was different than the one on the getting-started page.
 The one provided in the example with the approval should be enough for the coding challenge.
-Works great. I'm about 2.5 hours in, realizing I probably won't finish the front end, I'm not concerned, I suppose you could always look at myaccount.byu.edu (the CAS one wasn't done in Vue, I think myaccount.byu.edu was, it's been a while though)
+Works great. I'm about 2.5 hours in, realizing I probably won't finish the front end, I'm not concerned since the document said to just go as far as you can
 Anyways, I got the info for the movie "Fight Club", going to review the docs.
 K, saw that it wanted me to do the search feature, so I'll do that.
 The developer page on the movie website was not recognizing me as being signed in even though I cleared my cache, signed in, etc... but good news is that it now is working. Meaning that I can see the examples and try them out.
-
+Checkpoint (this is the 2nd one I think), backend is in a good state, not finished though. Just close enough that the next step I want to test for it is to pass a search parameter to it from the front end.
+Going to work on front end now.
+Gameplan is to review what's needed to add vue into the project, get hello world to pop up, then create a search field, then pass the parameter to the backend, log it out to make sure it works, finish out the backend by also logging out what the backend returns on the front end, then finish out the front end by displaying the poster image from the url or whatever else is wanted in the docs.
 
