@@ -38,4 +38,17 @@ The developer page on the movie website was not recognizing me as being signed i
 Checkpoint (this is the 2nd one I think), backend is in a good state, not finished though. Just close enough that the next step I want to test for it is to pass a search parameter to it from the front end.
 Going to work on front end now.
 Gameplan is to review what's needed to add vue into the project, get hello world to pop up, then create a search field, then pass the parameter to the backend, log it out to make sure it works, finish out the backend by also logging out what the backend returns on the front end, then finish out the front end by displaying the poster image from the url or whatever else is wanted in the docs.
-
+Not "Hello World", but following along https://vuejs.org/guide/quick-start since it looks promising.
+Ran 'npm create vue@latest' but it got stuck *after* it said 'Done!'. I control C and it said it failed but things might be fine?
+Going to proceed as if it succeeded but keeping in mind that it may have not.
+K it looks like it's working, I'm not really liking these docs though since they're not as thorough as they could be.
+That's not a 'Hello World' page.
+So they don't say what the files should be called,
+I'm really distracted by the page flashing white when loading, checking vue documentation to see how to turn that off.
+No documentation. Found it through Inspect element, searched for the color in the code, found it in base.css, found the transition, deleted it. That worked. Saw that base.css was imported into main.css which was retrieved from main.js. K.
+With that out of the way added the search field, but still need a way to get the value and pass it to the backend.
+Ok I'm about out of time, I set a timer for 3 hrs and 40 minutes but I didn't start it immediately, but I'm fine calling it good there.
+On the front end, the variable "message" wasn't updating live according to their docs, but then when I swapped away and came back it was? I needed to test and play around with it more to understand the behavior, probably needed to hit enter or something like that.
+Didn't get to the part of getting vue to call my backend, having the backend filter the results to the correct information and send that to the front end, and have the front end display the correct information.
+So not quite an MVP yet but that's ok.
+Anyways, have a great day.
